@@ -305,11 +305,11 @@ textarea {
 #input-submit[type="submit"] {
     border: 1px solid #f5e7db;
     width: 150px;
-    margin-right: 100px;
+    margin-right: 150px;
     height: auto;
     padding: 20px;
     color: black;
-    border-radius: 100px;
+    border-radius: 150px;
     justify-content:center;
     align-items: center;
     text-align: center;
