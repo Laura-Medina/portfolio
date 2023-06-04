@@ -14,7 +14,7 @@
 
 <body>
     <nav>
-        <a href="" class="nav-contact">CONTACT </a>
+        <a href="#contact" class="nav-contact">CONTACT </a>
         <a href="#project">PROJECTS</a>
         <a href="#knowledge">KNOWLEDGE</a>
         <a href="#home">HOME</a>
@@ -172,29 +172,73 @@
     <!-- fin proyecto -->
 
     <!-- comienzo form -->
-    <section class="container-form">
-        <h2 class="title-form">Contact me</h2>
-        <p class="text-form">Feel free to reach out to me through the following channels:</p>
+    <div class="container" id="contact">
+        <div class="contact-list">
+        <h2 class="title-2">Contact Me</h2>
+        <p class="text-form">
+        If you have any inquiries or would like to get in <br>touch with me, feel free to contact me using <br>the following methods:</p>
+        <ul class="lista">
+        <li>
+        <i class="fa-solid fa-envelope">
+        <a class="tamaños" href="https://mail.google.com/">E-mail</a></i>
+        </li>
+        <li>
+        <i class="fa-brands fa-linkedin">
+        <a class="tamaños" href="https://www.linkedin.com/">Linkedin</a></li></i>
+        <li>
+        <i class="fa-brands fa-github">
+        <a class="tamaños" href="https://github.com/Laura-Medina">Github</a></i>
+        </li>
+        </ul>
+        </div>
+
+        <div class="contact-form">
+        <h2 class="title-form">Write Me</h2>
         <form>
-        <div class="form-group">
-        <label for="nombre">Name:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div class="form-group">
-        <label for="apellido">Last name:</label>
-        <input type="text" id="apellido" name="apellido" required>
-        </div>
-        <div class="form-group">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-        <label for="mensaje">Message:</label>
-        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-        </div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id="LastName" placeholder="Enter your Last name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+
         <label for="input-submit"></label>
-    <input id="input-submit" type="submit" value="Send">
+        <input id="input-submit" type="submit" value="Send">
         </form>
-     </section>
+        </div>
+    </div>
+
+    <section class="container-footer">
+        <footer>
+            <div class="nav-footer">
+        <a href="#contact">CONTACT </a>
+        <a href="#project">PROJECTS</a>
+        <a href="#knowledge">KNOWLEDGE</a>
+        <a href="#home">HOME</a>
+    </div>
+        <ul class="iconos-footer">
+        <li>
+        <i class="fa-solid fa-envelope">
+        <a class="tamaños" href="https://mail.google.com/"></a></i>
+        </li>
+        <li>
+        <i class="fa-brands fa-linkedin">
+        <a class="tamaños" href="https://www.linkedin.com/"></a></li></i>
+        <li>
+        <i class="fa-brands fa-github">
+        <a class="tamaños" href="https://github.com/Laura-Medina"></a></i>
+        </li>
+        </ul>
+        <p class="title-footer">
+        By Laura M Medina ✨
+    </p>
+        </footer>
+    </section>
+
     </body>
     </html>
