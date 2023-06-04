@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de0fcf01b5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="" class="nav-contact">CONTACT </a>
+        <a href="#project">PROJECTS</a>
+        <a href="#knowledge">KNOWLEDGE</a>
+        <a href="#home">HOME</a>
+    </nav>
+    <section class="container-2">
+        <img src="lau5.jpeg" alt="Avatar para portfolio" class="my-picture" >
+    </section>
+    <section class="container-1" id="home">
+        <h1 class="my-tag"> Hi, My name is</h1>
+        <h2 class="my-tag" > Laura Medina </h2>
+        <h3 class="my-tag" > I am junior developer </h3>
+        <button> About me </button>
+    </section>
+
+
+    <!-- Comienzo de conocimientos -->
+    <section class="my-container" id="knowledge" >
+        <div class="my-knowledge" >
+        <h2 class="my-title">
+        My Knowledge
+        </h2>
+        <p class="my-description">
+        I am currently a beginner in HTML and CSS <br>
+        I am in the process of learning these languages for web development. <br>
+        <br>
+        My next goals : JavaScript, React and Sass.
+        </p>
+        </div>
+
+        <div class="html-5">
+        <i id="class-know" class="fa-brands fa-html5">
+        <div class="title-knowledge">
+        HTML
+        </div>
+        </i>
+        </div>
+
+        <div class="css-3">
+        <i id="class-know" class="fa-brands fa-css3-alt">
+        <div class="title-knowledge">
+        CSS
+        </div>
+        </i>
+        </div>
+
+        <div class="my-git">
+        <i id="class-know" class="fa-brands fa-git-alt">
+    <div class="title-knowledge">
+        GIT
+        </div>
+        </i>
+        </div>
+
+        <div class="java-script">
+        <i id="class-know" class="fa-brands fa-js">
+        <div class="title-knowledge">
+        Java Script
+        </div>
+        </i>
+        </div>
+
+        <div class="my-react">
+        <i id="class-know" class="fa-brands fa-react">
+        <div class="title-knowledge">
+        React
+        </div>
+        </i>
+        </div>
+
+        <div class="my-sass">
+        <i  id="class-know" class="fa-brands fa-sass">
+    <div class="title-knowledge">
+        Sass
+        </div>
+        </i>
+        </div>
+    </section>
+    <!-- termina conocimientos -->
+
+    <!-- empieza quote -->
+    <section class="my-quote">
+        <i id="quote-icon" class="fa-solid fa-quote-right"></i>
+        <blockquote>
+        I can do nothing for you but work on myself
+        </blockquote>
+    </section>
+    <!-- termina quote -->
+
+    <!-- proyecto -->
+    <section class="my-projects" id="project">
+        <div class="my-portfolio">
+        <h2 class="title-portfolio">
+        My projects
+        </h2>
+        <p class="description-portfolio">
+        Welcome to my projects! <br>
+        my portfolio is my very first project that I have created as part of my learning journey. <br>
+        I am excited to showcase my skills in HTML, CSS, and more. <br>
+        As I continue my course, I look forward to developing <br>
+        and adding more projects here to demonstrate my growing expertise in web development. <br>
+        Stay tuned for updates as I embark on this exciting learning adventure!
+        </p>
+        </div>
+
+        <div class="container-project">
+        <article class="project-card">
+        <img class="project-img" src="portfolio.png" alt=""/>         <div class="project-name">
+        Portfolio
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img" src="generadordememes.png" alt=""/>
+        <div class="project-name">
+        Memes maker
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img"src="match3.png" alt=""/>
+        <div class="project-name">
+        Match 3
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img" src="controlador-gastos.png" alt=""/>
+        <div class="project-name">
+        Savings
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img" src="admi-reu.png" alt=""/>
+        <div class="project-name">
+        Meeting maker
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img"src="todoapp.png" alt=""/>
+        <div class="project-name">
+        All app
+        </div>
+        </article>
+
+        <article class="project-card">
+        <img class="project-img" src="buscador-peli.png" alt=""/>
+        <div class="project-name">
+        Movies search
+        </div>
+        </article>
+    </div>
+    </section>
+    <!-- fin proyecto -->
+
+    <!-- comienzo form -->
+    <section class="container-form">
+        <h2 class="title-form">Contact me</h2>
+        <p class="text-form">Feel free to reach out to me through the following channels:</p>
+        <form>
+        <div class="form-group">
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+        <label for="apellido">Last name:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+        <label for="mensaje">Message:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <label for="input-submit"></label>
+    <input id="input-submit" type="submit" value="Send">
+        </form>
+
+    </body>
+    </html>
