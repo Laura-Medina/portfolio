@@ -1,4 +1,4 @@
- * {
+* {
     box-sizing: border-box;
     }
 
@@ -74,9 +74,9 @@ button {
     display: block;
     margin: 2%;
     margin-left: 6%;
-    padding: 0%;
+    padding: 1%;
     border-radius: 50px;
-    width: 10%;
+    width: 10.5%;
     height: 17%;
     font-size: 2rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -469,4 +469,3 @@ button:active {
     font-size: 1rem;
     margin: 20%;
 }
-
