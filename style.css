@@ -134,15 +134,15 @@ button:active {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0%;
-    padding: 6%;
+    margin: 10%;
+    padding: 0%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .my-knowledge {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0%;
     padding: 0%;
 }
@@ -153,11 +153,11 @@ button:active {
 }
 
 #class-know {
-    font-size: 4rem;
+    font-size: 3rem;
     border: 1px solid grey;
     width: 15rem;
-    height: 13rem;
-    margin: 3rem;
+    height: 12rem;
+    margin: 0.2rem;
     padding: 3rem;
     background-color: white;
     border-radius: 5%;
@@ -240,7 +240,7 @@ button:active {
     background-color: white;
     margin: 0%;
     padding: 2%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -308,12 +308,14 @@ button:active {
 
 .contact-list,
 .contact-form {
-    flex-basis: 60%;
-    margin-top: 5%;
+    flex-basis: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    margin: 10%;
 }
 
 .title-2 {
-    margin: 5%;
+    margin: 3%;
     font-size: 2rem;
 }
 
@@ -420,9 +422,9 @@ button:active {
 
 .nav-footer {
     background-color: white;
-display: flex;
+    display: flex;
     justify-content: space-around;
-    margin: 9%;
+    margin-left: 9%;
     text-align: center;
     align-items: center;
     text-decoration: none;
@@ -435,10 +437,10 @@ display: flex;
     display: flex;
     text-align: center;
     align-items: center;
-    margin-left: 10%;
+    margin: 15%;
     font-size: 5rem;
     list-style: none;
-    margin: 15%;
+    padding: 15%;
 }
 
 .a-footer{
@@ -465,5 +467,6 @@ display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
+    margin: 20%;
 }
 
